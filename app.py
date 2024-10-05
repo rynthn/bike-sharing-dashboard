@@ -28,8 +28,8 @@ bike_df = get_bike_data()
 # 🚲 Bike Sharing Dashboard
 
 Melihat data peminjaman sepeda berdasarkan berbagai faktor seperti musim, 
-cuaca, dan jenis hari (kerja/libur). Data mencakup informasi peminjaman 
-harian dengan berbagai variabel yang mempengaruhi jumlah peminjaman.
+cuaca, dan jenis hari (kerja/libur). Analisis ini membahas bagaimana pengaruh cuaca terhadap jumlah peminjaman sepeda dan 
+kapan waktu puncak penggunaan sepeda dalam satu hari dan satu minggu.
 '''
 
 # Tambahkan spasi
