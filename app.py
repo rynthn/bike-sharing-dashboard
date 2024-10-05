@@ -244,22 +244,9 @@ with col4:
 # Menambahkan ringkasan keseluruhan di akhir dashboard
 st.header('Ringkasan Keseluruhan', divider='gray')
 st.write("""
-### Kesimpulan Utama:
-1. **Pola Musiman**: Terdapat variasi yang jelas dalam penggunaan sepeda berdasarkan musim, 
-   dengan puncak di musim panas dan gugur.
-
-2. **Pengaruh Cuaca**: Kondisi cuaca memiliki dampak signifikan terhadap jumlah peminjaman, 
-   dengan cuaca cerah menghasilkan peminjaman tertinggi.
-
-3. **Pola Harian**: 
-   - Hari kerja menunjukkan pola commuting yang jelas dengan dua puncak peminjaman
-   - Akhir pekan memiliki pola yang lebih merata dengan fokus pada aktivitas siang hari
-
-4. **Implikasi Operasional**:
-   - Perlu strategi berbeda untuk hari kerja vs akhir pekan
-   - Antisipasi variasi musiman dalam perencanaan kapasitas
-   - Pertimbangkan dampak cuaca dalam prediksi permintaan
-
+### Kesimpulan :
+1. Cuaca memiliki pengaruh yang signifikan terhadap jumlah peminjaman sepeda. Dalam analisis, ditemukan bahwa cuaca baik (kondisi 1 dan 2) menyebabkan volume peminjaman meningkat 2-3 kali lipat dibandingkan dengan cuaca buruk. Selain itu, cuaca ekstrem (kondisi 4) menyebabkan penurunan drastis dalam jumlah peminjaman. Hal ini menunjukkan bahwa kondisi cuaca yang baik mendorong lebih banyak orang untuk meminjam sepeda, sementara cuaca buruk dan ekstrem menghambat aktivitas tersebut.
+2. Waktu puncak penggunaan sepeda dalam satu hari terjadi pada hari kerja, dengan dua puncak jelas: pagi sekitar pukul 8:00 saat orang berangkat kerja dan sore sekitar pukul 17:00 saat pulang kerja. Dalam satu minggu, puncak penggunaan terjadi pada hari libur antara pukul 10:00 hingga 15:00. Pada hari libur, peminjaman sepeda rata-rata lebih tinggi dibandingkan hari kerja, mencapai 350 unit, sedangkan pada hari kerja, rata-ratanya hanya 300 unit.
 ### Rekomendasi:
 1. Optimalkan distribusi sepeda berdasarkan pola harian dan mingguan
 2. Sesuaikan strategi maintenance dengan variasi musiman
