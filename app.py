@@ -17,7 +17,7 @@ def get_bike_data():
     Membaca data bike sharing dari file CSV.
     Menggunakan caching untuk menghindari pembacaan berulang.
     """
-    bike_df = pd.read_csv(r'C:\Users\ASUS\Documents\KULIAH\MBKM\BANGKIT 2024\Submission2\Dashboard\filtered_bike_data.csv')
+    bike_df = pd.read_csv('https://raw.githubusercontent.com/rynthn/bike-sharing-dashboard/refs/heads/main/filtered_bike_data.csv')
     return bike_df
 
 # Membaca data
